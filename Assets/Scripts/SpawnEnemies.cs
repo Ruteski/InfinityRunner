@@ -27,8 +27,6 @@ public class SpawnEnemies : MonoBehaviour
 
     private void SpawnEnemy() {
         int inimigo = Random.Range(0, enemiesList.Count) ;
-        print(inimigo);
-
 
         Vector3 position = new Vector3(transform.position.x, Random.Range(0,4f), 0f);
         Instantiate(enemiesList[inimigo], position, transform.rotation);
