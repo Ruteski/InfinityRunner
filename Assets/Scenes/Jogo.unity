@@ -509,4 +509,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemiesList:
   - {fileID: 7059968436269022920, guid: 88289019e47e62a479eea2fa29238deb, type: 3}
-  spawnTimer: 1
+  - {fileID: 7059968436269022920, guid: 68fc45f67c9eeaf49afc04a21275cada, type: 3}
+  - {fileID: 7059968436269022920, guid: b7fcd374f3f5de344949a01d0877cfcd, type: 3}
+  spawnTimer: 2

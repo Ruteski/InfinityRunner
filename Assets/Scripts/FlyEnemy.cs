@@ -11,7 +11,7 @@ public class FlyEnemy : MonoBehaviour
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
-        Destroy(gameObject, 5f);
+        Destroy(gameObject, 7f);
     }
 
     private void FixedUpdate() {
