@@ -39,7 +39,7 @@ public class SpawnPlatform : MonoBehaviour
             Recycle(_currPlatforms[_platformIndex].gameObject);
             _platformIndex++;
 
-            if (_platformIndex >= _currPlatforms.Count - 1) {
+            if (_platformIndex >= _currPlatforms.Count) {
                 _platformIndex = 0;
             }
 
@@ -49,6 +49,11 @@ public class SpawnPlatform : MonoBehaviour
 
     public void Recycle(GameObject platform) {
         platform.transform.position = new Vector2(_offset, -4f);
+
+        if (platform.GetComponent<Platform>().spawnObj != null) {
+            platform.GetComponent<Platform>().spawnObj.Spawn();
+        }
+
         _offset += 25f;
     }
 }
