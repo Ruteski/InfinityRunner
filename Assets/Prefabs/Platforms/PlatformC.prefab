@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 350669730720016291}
   - component: {fileID: 350669730720016300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PlatformC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 350669731410215914}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FinalPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -312,7 +312,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7227206311496297950}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -344,7 +344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2329263292496589073}
   - component: {fileID: 6411255761224012844}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -395,7 +395,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1777594595040451030}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -426,7 +426,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2212023793729904999}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
 
     protected virtual void OnTriggerEnter2D(Collider2D collision) {
         if (collision.CompareTag("Bullet")) {
+            collision.GetComponent<Projectile>().OnHit();
             ApplyDamage(collision.GetComponent<Projectile>().damage);
         }
     }

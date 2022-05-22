@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7796917578102723679}
   - component: {fileID: 7796917578102723672}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PlatformB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalPoint: {fileID: 7796917578874644099}
+  spawnObj: {fileID: 0}
 --- !u!1 &7796917578735733588
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,7 +238,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7796917578874644099}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FinalPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

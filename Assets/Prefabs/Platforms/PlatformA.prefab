@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 222605208754711123}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FinalPoint
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 222605209582467481}
   - component: {fileID: 222605209582467486}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PlatformA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,6 +78,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalPoint: {fileID: 222605208754711123}
+  spawnObj: {fileID: 0}
 --- !u!1 &222605209635133531
 GameObject:
   m_ObjectHideFlags: 0
