@@ -128,7 +128,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -146,6 +146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 683f6dcc0ee2d184b91752ac5158d5bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 10
+  damage: 0
   bombPrefab: {fileID: 4946222712499850774, guid: aae4032adb36c3f428dd49a498c21b57, type: 3}
   firePoint: {fileID: 2325743214696465639}
   throwTime: 2

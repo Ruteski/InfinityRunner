@@ -390,7 +390,8 @@ MonoBehaviour:
   _speed: 3
   _jumpForce: 10
   _anim: {fileID: 1348222995}
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 8599908643251096785, guid: faa10389a2933644f9170454b46205c0, type: 3}
+  firePoint: {fileID: 75071944}
 --- !u!1 &1348222992
 GameObject:
   m_ObjectHideFlags: 0

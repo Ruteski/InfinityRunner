@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FlyEnemy : MonoBehaviour
+public class FlyEnemy : Enemy
 {
     private Rigidbody2D _rb;
     public float speed = 5f;
