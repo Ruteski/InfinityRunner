@@ -11,6 +11,9 @@ public class Player : MonoBehaviour
     private Rigidbody2D _rb;
     private bool _isJumping = false;
 
+    public GameObject bulletPrefab;
+    public Transform firePoint;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +27,11 @@ public class Player : MonoBehaviour
             _rb.AddForce(new Vector2(0, _jumpForce), ForceMode2D.Impulse);
             _anim.SetBool("Jumping", true);
             _isJumping = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftControl)) {
+            var e = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            Destroy(e, 3f);
         }
     }
 
