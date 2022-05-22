@@ -8,6 +8,8 @@ public class Player : MonoBehaviour
     [SerializeField] private float _jumpForce = 8f;
     [SerializeField] private Animator _anim;
 
+    public int health = 10;
+
     private Rigidbody2D _rb;
     private bool _isJumping = false;
 
@@ -32,6 +34,14 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftControl)) {
             var e = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
             Destroy(e, 3f);
+        }
+    }
+
+    public void OnHit(int dmg) {
+        health -= dmg;
+
+        if (health <= 0) {
+            GameManager.instance.ShowGameOver();
         }
     }
 
